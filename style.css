@@ -1,0 +1,678 @@
+body {
+    background-color: pink;
+    font-family: Arial;
+    margin: 0;
+}
+.index-page nav {
+    background-color: blueviolet;
+    padding: 15px;
+    text-align: center;
+}
+.index-page nav a {
+    color: white;
+    margin: 8px;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 16px;
+}
+.index-page h1 {
+    color: darkblue;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+
+}
+.video-container{
+    width: 200px;
+    margin: 20px auto;
+    border: 2px solid gold;
+    padding: 4px;
+    box-sizing: border-box;
+}
+body.index-page .video-container video{
+    width: 100%;
+    height: 200px;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+.index-page p {
+    color: black;
+font-size: 20px;
+text-align: center;
+margin-top: 1px;
+}
+.index-page h2 {
+    color: rebeccapurple;
+    text-align: center;
+    font-size: 22px;
+
+}
+.index-page ul {
+    font-size: 18px;
+    width: 200px;
+    margin: auto;
+}
+.index-page a {
+    color: purple;
+    text-decoration: none;
+}
+.index-page nav a:hover {
+color: red;
+background-color: darkblue;
+}
+.button {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 15px;
+}
+.button:hover{
+    background-color: gold;
+}
+.button-container {
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.button-container button{
+    margin: 10px 20px;
+}
+.button-container a{
+    color: white;
+    font-weight: bold;
+}
+.index-page footer {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    margin-top: 30px;
+}
+.welcome-banner{
+    background-color: lightpink;
+    border: 2px solid pink;
+    padding: 8px;
+    margin: 2px auto;
+    width: 60%;
+    text-align: center;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.welcome-banner h2{
+    color: purple;
+    font-size: 20px;
+    margin: 5px;
+}
+.welcome-banner h3{
+    color: black;
+    font-size: 22px;
+    margin: 5px;
+}
+.welcome-banner p{
+    color: black;
+    font-size: 16px;
+    margin: 5px;
+}
+
+/ABOUT PAGE DESIGN/
+.about-page {
+    background-color: pink;
+}
+.about-page h1 {
+    color: darkblue;
+    text-align: center;
+}
+.about-page h2 {
+    color: darkblue;
+    text-align: center;
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;  
+}
+.about-page p {
+    color: black;
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+}
+.about-page footer {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.video-container{
+    text-align: center;
+}
+.video-container video {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+}
+.about-page nav  {
+    background-color: blueviolet;
+    padding: 15px;
+    text-align: center;
+}
+.about-page nav a {
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+}
+.about-page nav a:hover{
+    background-color: darkblue;
+    color: red;
+}
+
+
+
+/CONTESTANTS PAGE DeSIGN/
+.contestants-page {
+    background-color: pink;
+}
+.contestants-page h1{
+    color: darkblue;
+    text-align: center;
+}
+.contestants-page h2{
+    color: purple;
+    text-align: left;
+    margin-left: 400px;
+}
+.contestants-page p{
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+}
+.contestants-page h3{
+    color: green;
+    text-align: center;
+    margin-bottom: -3px;
+}
+
+
+.contestants-page nav {
+background-color: blueviolet;
+padding: 15px;
+text-align: center;
+
+}
+.contestants-page nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+.contestants-page nav a:hover{
+    background-color: darkblue;
+    color: red;
+}
+.contestants-page footer{
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/EVENTS-PAGE DESIGN/
+.events-page nav {
+background-color: blueviolet;
+padding: 15px;
+text-align: center;
+
+}
+.events-page nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+.events-page nav a:hover{
+    background-color: darkblue;
+    color: red;
+}
+.events-page h1 {
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.events-page h2 {
+    color: darkblue;
+    text-align: center;
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 4pxpx;
+    margin-top: 3px;  
+}
+.events-page h3{
+    color: blue;
+    text-align: center;
+    margin-bottom: 1px;
+}
+.events-page p {
+    color: black;
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+}
+.events-page footer {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.register-btn {
+    display: inline-block;
+    background-color: blueviolet;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    text-align: center;
+}
+body a.register-btn:hover {
+background-color: gold;
+color: black;
+}
+
+
+/register page design/
+
+.register-page nav {
+width: 100%;
+background-color: blueviolet;
+padding: 15px;
+text-align: center;
+box-sizing: border-box;
+
+}
+.register-page nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+
+}
+.register-page nav a:hover{
+    background-color: darkblue;
+    color: red;
+}
+.register-page h1 {
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.register-page{
+    width: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: left;
+
+}
+
+.register-page h2{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: blue;
+}
+.register-page p{
+    text-align: center;
+}
+.register-page form{
+    width: 100%;
+}
+
+.register-page input,
+.register-page select, 
+.register-page textarea {
+    width: 80%;
+    padding: 10px;
+    height: 45px;
+    margin: 10px 0;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+.register-page textarea{
+    height: 120px;
+    resize: vertical;
+}
+
+.register-btn {
+    display: block;
+    width: 180px;
+    margin: 25px auto;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 12px;
+}
+.register-btn:hover{
+    background-color: gold;
+
+}
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.form-row label {
+    width: 220px;
+    text-align: center;
+    font-size: 18px;
+}
+.form-row input,
+.form-row select {
+    width: 380px;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.register-page .form-row textarea {
+    width: 380px;
+    height: 80px;
+    padding: 12px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+.back-home{
+    display: block;
+    width: 180px;
+    margin: 25px auto;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 12px;
+    text-decoration: none;
+}
+.back-home:hover{
+    background-color: gold;
+}
+.register-page footer{
+    background-color: rebeccapurple;
+    text-align: center;
+    color: white;
+    padding: 16px
+}
+
+
+
+
+/VOTE-PAGE/
+.vote-page {
+    background-color: pink;
+
+}
+.vote-page h1{
+    color: blue;
+    text-align: center;
+    margin-top: 20px;
+}
+.vote-page p{
+    text-align: center;
+}
+.vote-page h2{
+    color: purple;
+    text-align: center;
+    font-size: 20px;
+}
+.vote-page nav {
+    background-color:  blueviolet;
+    padding: 15px;
+    text-align: center;
+}
+.vote-page nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.vote-page nav a:hover{
+    background-color: darkblue;
+    color: red;
+}
+.vote-page form{
+    width: 50%;
+    margin: 20px auto;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+form input,
+form textarea,
+form select{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+.vote-page footer{
+    background-color: rebeccapurple;
+    text-align: center;
+    color: white;
+    padding: 16px
+}
+
+/gallery-page design/
+.gallery-page{
+    background-color: pink;
+}
+.gallery-page h1{
+    color: darkblue;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.gallery-page p{
+    text-align: center;
+}
+.gallery-page h2{
+    color: blue;
+    text-align: center;
+}
+.gallery-page h3{
+    color: purple;
+    text-align:center ;
+    font-size: 30px;
+}
+.gallery-page img{
+    display: block;
+    margin: 0 auto;
+}
+.gallery-page nav {
+background-color: blueviolet;
+padding: 15px;
+text-align: center;
+
+}
+.gallery-page nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+.gallery-page nav a:hover{
+    background-color: darkblue;
+    color: red;
+}
+.gallery-page footer{
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+.pageant-gallery {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap:20px;
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+}
+.gallery-item {
+    text-align: center;
+}
+.gallery-item img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+/RESULTS-PAGE/
+.results-page {
+    background-color: pink;
+}
+
+.results-page nav {
+    background-color: blueviolet;
+    padding: 15px;
+    text-align: center;
+}
+.results-page nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.results-page nav a:hover{
+    background-color: darkblue;
+    color: red;
+} 
+.results-page h1{
+    color: blue;
+    text-align: center;
+}
+.results-page p{
+    text-align: center;
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bolder;
+}
+.results-page table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td{
+    border: 2px solid black;
+    padding: 12px;
+    text-align: center;
+}
+th{
+    background-color:lightgreen ;
+    color: purple
+}
+td{
+    background-color: white;
+}
+tr:hover td{
+    background-color: lightblue;
+}
+.results-page h2{
+    color: darkblue;
+    text-align: center;
+    font-size: 20px;
+}
+.results-page footer{
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/CONTACT-PAGE/
+.contact-page nav {
+background-color: blueviolet;
+text-align: center;
+padding: 15px;
+}
+.contact-page nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.contact-page nav a:hover {
+background-color: darkblue;
+color: red;
+}
+.contact-page h1{
+    color: blue;
+    text-align: center;
+}
+.contact-page p{
+    text-align: center;
+}
+.contact-page h2{
+    color: blue;
+    text-align: center;
+}
+.contact-page form{
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+}
+.contact-page input,select,textarea{
+    width: 90%;
+    padding: 6px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+.home-btn {
+    display: inline-block;
+    background-color: blueviolet;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 15px;
+}
+body a.home-btn:hover {
+background-color: gold;
+color: black;
+}
+.contact-page footer{
+    background-color: rebeccapurple;
+    text-align: center;
+    padding: 16px;
+    color: white;
+}
