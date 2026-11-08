@@ -122,7 +122,7 @@ background-color: darkblue;
     margin: 5px;
 }
 
-/ABOUT PAGE DESIGN/
+/*ABOUT PAGE DESIGN */
 .about-page {
     background-color: pink;
 }
@@ -183,7 +183,7 @@ background-color: darkblue;
 
 
 
-/CONTESTANTS PAGE DeSIGN/
+/*CONTESTANTS PAGE DeSIGN*/
 .contestants-page {
     background-color: pink;
 }
@@ -236,12 +236,12 @@ text-align: center;
     text-align: center;
 }
 
-/EVENTS-PAGE DESIGN/
+/*EVENTS-PAGE DESIGN*/
 .events-page nav {
-background-color: blueviolet;
-padding: 15px;
-text-align: center;
-
+ background-color: blueviolet ;
+ padding: 15px;
+ text-align: center;
+ box-sizing: border-box;
 }
 .events-page nav a{
     color: white;
@@ -306,11 +306,11 @@ color: black;
 }
 
 
-/register page design/
+/*register page design*/
 
 .register-page nav {
 width: 100%;
-background-color: blueviolet;
+background-color:  blueviolet;
 padding: 15px;
 text-align: center;
 box-sizing: border-box;
@@ -435,7 +435,7 @@ box-sizing: border-box;
 
 
 
-/VOTE-PAGE/
+/*VOTE-PAGE*/
 .vote-page {
     background-color: pink;
 
@@ -490,7 +490,7 @@ form select{
     padding: 16px
 }
 
-/gallery-page design/
+/*gallery-page design*/
 .gallery-page{
     background-color: pink;
 }
@@ -557,7 +557,7 @@ text-align: center;
     display: block;
 }
 
-/RESULTS-PAGE/
+/*RESULTS-PAGE*/
 .results-page {
     background-color: pink;
 }
@@ -620,7 +620,7 @@ tr:hover td{
     margin-top: 50px;
 }
 
-/CONTACT-PAGE/
+/*CONTACT-PAGE*/
 .contact-page nav {
 background-color: blueviolet;
 text-align: center;
@@ -675,4 +675,83 @@ color: black;
     text-align: center;
     padding: 16px;
     color: white;
+}
+/* nav buttons */
+.page-nav {
+  display: flex;
+  justify-content :space-between;   
+  align-items: center;
+  width: 100%;                      
+  box-sizing: border-box;
+  padding: 20px 30px;
+}
+
+.btn-prev{
+    display: inline-block;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin: 0;                       
+  
+         }
+.btn-next {
+  display: inline-block;
+  background-color: blue;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin-left: auto;                       
+                        
+}
+
+
+
+.page-nav {
+  overflow: hidden;     /* makes the wrapper contain the floated button */
+  padding: 20px 30px;
+}
+/* img styling */
+img{
+  width: 100%;
+  max-height: 300px;
+  max-width: 250px;             /* the photo never gets bigger than this */
+  aspect-ratio: 4 / 5;          /* a portrait frame suits head-and-shoulders photos */
+  height: auto;                 /* let the ratio decide the height; never set both */
+  object-fit: cover;            /* fills the frame with no empty bars */
+  object-position: 50% 20%;     /* keeps the face near the top-centre of the frame */
+  border-radius: 20px;          /* soft corners that don't clip faces */
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.tina2 oti {
+    height: 300px;
+    width: 250px;
+}
+/*photo grid*/
+.photo-grid {
+  display: grid;                                   
+  grid-template-columns: repeat(2, 2fr);           /* 2 equal columns, so 2photos in one row */
+  gap: 20px;                                       /* space between photos */
+  max-width: 1000px;
+  justify-content: center;
+  margin: 0 auto;                                  /* centers the grid on the page */
+  padding: 20px;
+}
+.epmty
+.photo-grid img {
+  width: 100%;                                     
+  aspect-ratio:  2/ 5;                           
+  height: auto;                                   
+  object-fit: cover;                              
+  object-position: 50% 20%;                      
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: block;
+  margin: 0;                                       /* remove old margin: 0 auto from img rules */
 }
